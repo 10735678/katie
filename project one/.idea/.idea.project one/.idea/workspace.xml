@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/newer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -20,6 +21,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/NewClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/newer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
       </list>
     </option>
   </component>
@@ -71,7 +73,8 @@
       <updated>1578937455501</updated>
       <workItem from="1578937459029" duration="1826000" />
       <workItem from="1579108567656" duration="1839000" />
-      <workItem from="1579712443956" duration="2327000" />
+      <workItem from="1579712443956" duration="2926000" />
+      <workItem from="1580142837920" duration="3017000" />
     </task>
     <servers />
   </component>
