@@ -11,7 +11,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InClass/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/characterEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/character control.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -23,6 +25,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Home/CharacterControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Home/NewBehaviourScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Home/characterEvents.cs" />
       </list>
     </option>
   </component>
@@ -84,6 +87,8 @@
       <workItem from="1580142837920" duration="3017000" />
       <workItem from="1580317678982" duration="2851000" />
       <workItem from="1580355691722" duration="3262000" />
+      <workItem from="1580444502654" duration="47000" />
+      <workItem from="1580444599685" duration="1823000" />
     </task>
     <servers />
   </component>
