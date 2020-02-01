@@ -13,6 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InClass/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/characterEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/character control.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -26,6 +27,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Home/CharacterControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Home/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Home/characterEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Home/ifStatementTutorial.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Home/beginnerTutorial2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Home/beginnerTutorial.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Home/health.cs" />
       </list>
     </option>
   </component>
@@ -43,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -89,6 +94,11 @@
       <workItem from="1580355691722" duration="3262000" />
       <workItem from="1580444502654" duration="47000" />
       <workItem from="1580444599685" duration="1823000" />
+      <workItem from="1580531311520" duration="334000" />
+      <workItem from="1580531730976" duration="5000" />
+      <workItem from="1580531767768" duration="166000" />
+      <workItem from="1580531992942" duration="4000" />
+      <workItem from="1580532040672" duration="1038000" />
     </task>
     <servers />
   </component>
@@ -111,10 +121,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="374" y="103" key="SettingsEditor" timestamp="1580355982734">
+    <state x="374" y="103" key="SettingsEditor" timestamp="1580532175308">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="374" y="103" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1580355982734" />
+    <state x="374" y="103" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1580532175308" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
