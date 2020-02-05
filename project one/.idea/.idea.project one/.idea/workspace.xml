@@ -13,8 +13,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InClass/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/characterEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/charactercontrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/health.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/character control.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Home/beginnerTutorial2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Home/beginnerTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Home/health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Home/charactercontrol.cs" />
       </list>
     </option>
   </component>
@@ -99,6 +100,8 @@
       <workItem from="1580531767768" duration="166000" />
       <workItem from="1580531992942" duration="4000" />
       <workItem from="1580532040672" duration="1038000" />
+      <workItem from="1580534017299" duration="86000" />
+      <workItem from="1580534500708" duration="4000" />
     </task>
     <servers />
   </component>

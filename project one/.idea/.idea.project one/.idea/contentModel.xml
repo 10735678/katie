@@ -8,7 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Home" t="Include">
-            <e p="character control.cs" t="Include" />
+            <e p="charactercontrol.cs" t="Include" />
             <e p="characterEvents.cs" t="Include" />
             <e p="health.cs" t="Include" />
             <e p="HomeTriggerEvents.cs" t="Include" />
