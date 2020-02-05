@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2210e834-6564-41fe-a773-6362b357f582" name="Default Changelist" comment="" />
+    <list default="true" id="2210e834-6564-41fe-a773-6362b357f582" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.project one/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project one/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.project one/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project one/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HomeScenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HomeScenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/CoreCompileInputs.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/characterEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/charactercontrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Home/health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InClass/characterMover.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -32,6 +39,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Home/beginnerTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Home/health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Home/charactercontrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InClass/characterMover.cs" />
       </list>
     </option>
   </component>
@@ -102,6 +110,8 @@
       <workItem from="1580532040672" duration="1038000" />
       <workItem from="1580534017299" duration="86000" />
       <workItem from="1580534500708" duration="4000" />
+      <workItem from="1580937795328" duration="897000" />
+      <workItem from="1580943644420" duration="1432000" />
     </task>
     <servers />
   </component>
