@@ -1,4 +1,5 @@
 ﻿
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 public class characterMover : MonoBehaviour
@@ -8,7 +9,7 @@ public class characterMover : MonoBehaviour
     public float gravity = -5f;
     public float speed = 10f;
     public float jumpforce = 30f;
-
+    public float growth = 5f;
     void Start()
     {
 
@@ -35,6 +36,13 @@ public class characterMover : MonoBehaviour
         if (other.gameObject.CompareTag("Pick Up"))
         {
             other.gameObject.SetActive(false);
+        }
+
+        //Game over objects
+        if (other.gameObject.CompareTag("Death")) 
+        {
+            Object.Destroy(gameObject);
+            print("Game Over");
         }
     }
 }
