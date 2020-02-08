@@ -12,6 +12,7 @@
             <e p="characterEvents.cs" t="Include" />
             <e p="health.cs" t="Include" />
             <e p="HomeTriggerEvents.cs" t="Include" />
+            <e p="objectSpinner.cs" t="Include" />
           </e>
           <e p="InClass" t="Include">
             <e p="characterMover.cs" t="Include" />
