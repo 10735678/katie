@@ -11,6 +11,7 @@ public class characterMover : MonoBehaviour
     public float speedBoost = 30f;
     public float jumpforce = 30f;
     public float growth = 5f;
+    public float counter = 1f;
     void Start()
     {
 
@@ -37,11 +38,15 @@ public class characterMover : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        print(counter);
         if (other.gameObject.CompareTag("Pick Up"))
         {
             other.gameObject.SetActive(false);
-        }
+            counter = counter + 1;
+            speed = speed + 5;
 
+        }
+        
         //Game over objects
         if (other.gameObject.CompareTag("Death")) 
         {
