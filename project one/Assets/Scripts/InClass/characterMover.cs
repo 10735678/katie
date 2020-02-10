@@ -8,6 +8,7 @@ public class characterMover : MonoBehaviour
     public Vector3 positionDirection;
     public float gravity = -5f;
     public float speed = 10f;
+    public float speedBoost = 30f;
     public float jumpforce = 30f;
     public float growth = 5f;
     void Start()
@@ -29,6 +30,9 @@ public class characterMover : MonoBehaviour
         positionDirection.y -= gravity;
 
         controller.Move(positionDirection * Time.deltaTime);
+        
+        //speed boost
+        
     }
 
     void OnTriggerEnter(Collider other)
@@ -44,6 +48,12 @@ public class characterMover : MonoBehaviour
             Object.Destroy(gameObject);
             print("Game Over");
         }
+        if (other.gameObject.CompareTag("Boost")) 
+        {
+            positionDirection.x = Input.GetAxis("Vertical")* speedBoost;
+            positionDirection.z = Input.GetAxis("Horizontal")* speedBoost;
+        }
+        
     }
 }
 
