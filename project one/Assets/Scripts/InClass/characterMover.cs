@@ -9,9 +9,11 @@ public class characterMover : MonoBehaviour
     public float gravity = -5f;
     public float speed = 10f;
     public float speedBoost = 30f;
-    public float jumpforce = 30f;
+    public float jumpforce = 50f;
     public float growth = 5f;
     public float counter = 1f;
+    private int jumpCount = 0;
+    public int jumpCountMax = 2;
     void Start()
     {
 
@@ -23,16 +25,21 @@ public class characterMover : MonoBehaviour
     {
         positionDirection.x = Input.GetAxis("Vertical")* speed;
         positionDirection.z = Input.GetAxis("Horizontal")* speed;
-        if (Input.GetButtonDown("Jump"))
+        //JUMP
+        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
         {
             positionDirection.y = jumpforce;
+            jumpCount++;
+        }
+
+        if (controller.isGrounded)
+        {
+            jumpCount = 0;
         }
 
         positionDirection.y -= gravity;
 
         controller.Move(positionDirection * Time.deltaTime);
-        
-        //speed boost
         
     }
 
