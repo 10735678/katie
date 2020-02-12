@@ -17,10 +17,12 @@
           <e p="InClass" t="Include">
             <e p="characterMover.cs" t="Include" />
             <e p="IfStatements.cs" t="Include" />
+            <e p="lightcontroller.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="NewClass.cs" t="Include" />
             <e p="newer.cs" t="Include" />
             <e p="RigidBodyForces.cs" t="Include" />
+            <e p="spriteController.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
             <e p="TriggeringEvents.cs" t="Include" />
           </e>

@@ -6,7 +6,7 @@ using UnityEngine;
 public class RigidBodyForces : MonoBehaviour
 {
     public Rigidbody rigidBodyObject;
-    public float force = 100;
+    public float force = 1000;
     private Vector3 forceVector;
 
 

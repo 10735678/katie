@@ -45,13 +45,13 @@ public class characterMover : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        print(counter);
+        
         if (other.gameObject.CompareTag("Pick Up"))
         {
             other.gameObject.SetActive(false);
-            counter = counter + 1;
+            counter++;
             speed = speed + 5;
-
+            print(counter);
         }
         
         //Game over objects
