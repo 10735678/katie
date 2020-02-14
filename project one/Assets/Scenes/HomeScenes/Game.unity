@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -505,6 +505,7 @@ GameObject:
   - component: {fileID: 710595381}
   - component: {fileID: 710595370}
   - component: {fileID: 710595374}
+  - component: {fileID: 710595376}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -625,6 +626,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &710595376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710595369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d671f26556bb654aa0e6300b759a009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &710595377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1114,7 +1127,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970038425}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 933acaf408b316f478772efd791fd305, type: 3}
   m_Name: 
@@ -1177,7 +1190,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970038425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.12, y: 3, z: -7.18}
+  m_LocalPosition: {x: 12.12, y: 3, z: -57}
   m_LocalScale: {x: 10.383734, y: 10.383734, z: 10.383734}
   m_Children: []
   m_Father: {fileID: 0}

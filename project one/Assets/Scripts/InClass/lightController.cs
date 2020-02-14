@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,4 +15,18 @@ public class lightController : MonoBehaviour
         lightBrightness = GetComponent<Light>();
         lightBrightness.intensity = 0f;       
     }
+
+   private void Update()
+   {
+       if (Input.GetKeyDown(KeyCode.L)) 
+       {
+           lightBrightness = GetComponent<Light>();
+           lightBrightness.intensity = 1f;   
+       }
+       if (Input.GetKeyDown(KeyCode.O)) 
+       {
+           lightBrightness = GetComponent<Light>();
+           lightBrightness.intensity = 0f;   
+       }
+   }
 }
