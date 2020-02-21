@@ -55,10 +55,11 @@ public class characterMover : MonoBehaviour
         }
         
         //Game over objects
-        if (other.gameObject.CompareTag("Death")) 
+        if (other.gameObject.CompareTag("lower")) 
         {
-            Object.Destroy(gameObject);
-            print("Game Over");
+            
+            //Object.Destroy(gameObject);
+            //print("Game Over");
         }
         if (other.gameObject.CompareTag("Boost")) 
         {
