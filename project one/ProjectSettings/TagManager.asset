@@ -9,6 +9,7 @@ TagManager:
   - Boost
   - check
   - passcode
+  - lower
   layers:
   - Default
   - TransparentFX
