@@ -20,7 +20,8 @@ public class ImageBehaviour : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.H))
         {
-            GetComponent<Image>().material.color = Color.red;
+            Image imageObj = GetComponent<Image>();
+            var compareTo = Image.FillMethod.Horizontal.CompareTo(this.imageObj)-.5;
         }
     }
 }
