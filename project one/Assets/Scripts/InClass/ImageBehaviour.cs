@@ -1,4 +1,5 @@
 ﻿
+using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,6 +8,7 @@ using UnityEngine.UI;
 public class ImageBehaviour : MonoBehaviour
 {
     private Image imageObj;
+    public floatData dataObj;
     
     // Start is called before the first frame update
     private void Start()
@@ -17,11 +19,9 @@ public class ImageBehaviour : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.H))
+
         {
-            Image imageObj = GetComponent<Image>();
-            var compareTo = Image.FillMethod.Horizontal.CompareTo(this.imageObj)-.5;
+            imageObj.fillAmount = dataObj.value;
         }
-    }
+    
 }

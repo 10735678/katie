@@ -26,6 +26,7 @@
             <e p="newer.cs" t="Include" />
             <e p="RigidBodyForces.cs" t="Include" />
             <e p="spriteController.cs" t="Include" />
+            <e p="textBehaviour.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
             <e p="TriggeringEvents.cs" t="Include" />
           </e>
