@@ -10,7 +10,7 @@ public class ImageBehaviour : MonoBehaviour
     private Image imageObj;
     public floatData dataObj;
     
-    // Start is called before the first frame update
+
     private void Start()
     {
         imageObj = GetComponent<Image>();
