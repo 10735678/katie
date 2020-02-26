@@ -3012,7 +3012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39602872619006c44b831b8d9b0a1533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataObj: {fileID: 0}
+  dataObj: {fileID: 11400000, guid: 2691f9530861155498ad0db879dbd0e8, type: 2}
 --- !u!114 &1953096150
 MonoBehaviour:
   m_ObjectHideFlags: 0
