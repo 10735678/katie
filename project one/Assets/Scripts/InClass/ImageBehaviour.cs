@@ -1,26 +1,26 @@
-﻿
-using System.ComponentModel;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-
-[RequireComponent(typeof(Image))]
-public class ImageBehaviour : MonoBehaviour
+namespace InClass
 {
-    private Image imageObj;
-    public floatData dataObj;
-    
-
-    private void Start()
+    [RequireComponent(typeof(Image))]
+    public class ImageBehaviour : MonoBehaviour
     {
-        imageObj = GetComponent<Image>();
-    }
+        private Image imageObj;
+        public floatData dataObj;
     
 
-    void Update()
+        private void Start()
+        {
+            imageObj = GetComponent<Image>();
+        }
+    
+
+        void Update()
 
         {
             imageObj.fillAmount = dataObj.value;
         }
     
+    }
 }
