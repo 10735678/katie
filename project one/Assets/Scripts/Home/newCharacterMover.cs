@@ -7,9 +7,9 @@ public class newCharacterMover : MonoBehaviour
     public CharacterController controller;
     public Vector3 positionDirection;
     public float gravityone = -5f;
-    public float speedone = 20f;
+    public float speedone = 10f;
     public float boost = 30f;
-    public float force = 50f;
+    public float force = 100f;
     public int jumpercount = 0;
     public int jumpercountmax = 2;
     
