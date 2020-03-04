@@ -28,9 +28,12 @@
             <e p="Datas" t="Include">
               <e p="FloatData.cs" t="Include" />
               <e p="IntData.cs" t="Include" />
+              <e p="stringData.cs" t="Include" />
+              <e p="vector3Data.cs" t="Include" />
             </e>
             <e p="IfStatements.cs" t="Include" />
             <e p="ImageBehaviour.cs" t="Include" />
+            <e p="monoBehaviours.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="NewClass.cs" t="Include" />
             <e p="newer.cs" t="Include" />
