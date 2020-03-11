@@ -20,6 +20,8 @@
             <e p="PcImageBehaviour.cs" t="Include" />
           </e>
           <e p="InClass" t="Include">
+            <e p="Collectable.cs" t="Include" />
+            <e p="collectableList.cs" t="Include" />
             <e p="Controllers" t="Include">
               <e p="characterMover.cs" t="Include" />
               <e p="lightcontroller.cs" t="Include" />
@@ -33,6 +35,7 @@
             </e>
             <e p="IfStatements.cs" t="Include" />
             <e p="ImageBehaviour.cs" t="Include" />
+            <e p="listsAndLoops.cs" t="Include" />
             <e p="monoBehaviours.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="NewClass.cs" t="Include" />
