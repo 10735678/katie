@@ -1331,12 +1331,13 @@ MonoBehaviour:
   triggerEnterEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 987a567c4df90ef40a198f4c4d39a2eb, type: 2}
-        m_MethodName: ChangePosition
+      - m_Target: {fileID: 11400000, guid: 52dedde4006dc3449bb3d8a9427baad1, type: 2}
+        m_MethodName: ChangeVector3Data
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 710595373}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: ed1f8b0827e9ee747b10cc797f2da918,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: vector3Data, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1430,7 +1431,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 52dedde4006dc3449bb3d8a9427baad1, type: 2}
+        m_MethodName: ChangevalueFromTransform
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 904780275}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &952186462
