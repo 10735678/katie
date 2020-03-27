@@ -28,6 +28,7 @@
               <e p="FloatData.cs" t="Include" />
               <e p="IntData.cs" t="Include" />
             </e>
+            <e p="EnumSwitches.cs" t="Include" />
             <e p="IfStatements.cs" t="Include" />
             <e p="ImageBehaviour.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
