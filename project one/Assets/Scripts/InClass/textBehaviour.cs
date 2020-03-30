@@ -4,23 +4,25 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-[RequireComponent(typeof(Image))]
+[RequireComponent(typeof(Text))]
 public class textBehaviour : MonoBehaviour
 {
     private Text textObj;
-    public IntData dataObj;
-    
-    
-    private void Start()
+
+    void Start()
     {
         textObj = GetComponent<Text>();
     }
-    
 
-    void Update()
 
+    public void ChangeText(string message)
     {
-        textObj.text = dataObj.value.ToString();
+        textObj.text = message;
+    }
+
+    public void ChangeText(IntData obj)
+    {
+        textObj.text = textObj.value.ToString();
     }
     
 }

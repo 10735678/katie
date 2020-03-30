@@ -54,6 +54,7 @@ public class EnumSwitches : MonoBehaviour
                 break;
             default:
                 print("I am any");
+                break;
                 
 
         }
