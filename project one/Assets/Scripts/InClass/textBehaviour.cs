@@ -1,5 +1,6 @@
 ﻿
 using System.ComponentModel;
+using System.Net.Mime;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +9,7 @@ using UnityEngine.UI;
 public class textBehaviour : MonoBehaviour
 {
     private Text textObj;
-
+    
     void Start()
     {
         textObj = GetComponent<Text>();

@@ -20,6 +20,8 @@
             <e p="PcImageBehaviour.cs" t="Include" />
           </e>
           <e p="InClass" t="Include">
+            <e p="AgentBehaviour.cs" t="Include" />
+            <e p="alternateCoRoutine.cs" t="Include" />
             <e p="Collectable.cs" t="Include" />
             <e p="collectableList.cs" t="Include" />
             <e p="Controllers" t="Include">
