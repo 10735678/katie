@@ -7,11 +7,10 @@ public class Coroutines : MonoBehaviour
 {
     public int counter = 3;
     public float seconds = 1f;
-    public string message = "Times up!";
+    public string message = "GO!";
     public IntData numberData;
-    private WaitForSeconds waitObj;
-    public UnityEvent startEvent, repeatEvent, endEvent;
     
+    public UnityEvent startEvent, repeatEvent, endEvent;
     IEnumerator Start()
     {
         startEvent.Invoke();
@@ -21,10 +20,8 @@ public class Coroutines : MonoBehaviour
             yield return new WaitForSeconds(seconds);
             repeatEvent.Invoke();
             counter--;
-            
         }
         yield return new WaitForSeconds(seconds);
         endEvent.Invoke();
-        
     }
 }

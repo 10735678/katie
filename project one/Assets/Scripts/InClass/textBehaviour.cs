@@ -19,10 +19,5 @@ public class textBehaviour : MonoBehaviour
     {
         textObj.text = message;
     }
-
-    public void ChangeText(IntData obj)
-    {
-        textObj.text = textObj.value.ToString();
-    }
     
 }
