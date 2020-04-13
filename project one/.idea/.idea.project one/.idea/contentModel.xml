@@ -30,6 +30,7 @@
               <e p="Coroutines.cs" t="Include" />
               <e p="lightcontroller.cs" t="Include" />
               <e p="NavAgentBehaviour.cs" t="Include" />
+              <e p="shooter.cs" t="Include" />
               <e p="spriteController.cs" t="Include" />
             </e>
             <e p="Datas" t="Include">

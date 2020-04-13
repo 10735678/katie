@@ -12,7 +12,7 @@ public class AiPatrol : AiBase
     private void OnEnable()
     {
         patrolPoints?.Clear();
-        if (addPointList != null) addPointList.raise += AddPatrolPointList;
+        
         i = 0;
     }
 
@@ -26,7 +26,7 @@ public class AiPatrol : AiBase
         patrolPoints = obj as List<Vector3Data>;
     }
     
-    public override void RunAgent(NavMeshAgent agent)
+    public void RunAgent(NavMeshAgent agent)
     {
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
         {
@@ -34,4 +34,18 @@ public class AiPatrol : AiBase
             i = (i + 1) % patrolPoints.Count;
         }
     }
+}
+
+public class Vector3Data
+{
+    public Vector3 value;
+}
+
+public class GameAction
+{
+    public object raise;
+}
+
+public class AiBase
+{
 }
