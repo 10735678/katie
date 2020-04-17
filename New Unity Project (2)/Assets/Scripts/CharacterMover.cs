@@ -22,7 +22,7 @@ public class CharacterMover : MonoBehaviour
     
     void Update()
     {
-        positionDirection.x = Input.GetAxis("Vertical")* speed;
+        positionDirection.x = Input.GetAxis("Horizontal")* speed;
        
         //JUMP
         if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)

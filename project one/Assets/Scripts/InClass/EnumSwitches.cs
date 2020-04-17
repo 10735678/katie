@@ -41,7 +41,7 @@ public class EnumSwitches : MonoBehaviour
         switch (currentPlayerState)
         {
             case PlayerStates.Idle:
-                print("I am Idling");
+                print("I am Resting");
                 break;
             case PlayerStates.Walk:
                 print("I am Walking");
