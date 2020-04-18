@@ -10,7 +10,7 @@
           <e p="CharacterMover.cs" t="Include" />
           <e p="Characters.cs" t="Include" />
           <e p="characterTest.cs" t="Include" />
-          <e p="ImageBehaviour.cs" t="Include" />
+          <e p="Shooter.cs" t="Include" />
         </e>
       </e>
       <e p="New Unity Project (2).sln" t="IncludeFlat" />
