@@ -7,16 +7,46 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AgentBehaviour.cs" t="Include" />
+          <e p="alternateCoRoutine.cs" t="Include" />
           <e p="Ammo.cs" t="Include" />
+          <e p="BasicBullet.cs" t="Include" />
+          <e p="BasicShoot.cs" t="Include" />
+          <e p="characterEvents.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="Characters.cs" t="Include" />
           <e p="characterTest.cs" t="Include" />
+          <e p="coinSpinner.cs" t="Include" />
+          <e p="Collectable.cs" t="Include" />
+          <e p="collectableList.cs" t="Include" />
+          <e p="colorChanger.cs" t="Include" />
           <e p="Datas" t="Include">
             <e p="FloatData.cs" t="Include" />
+            <e p="IntData.cs" t="Include" />
+            <e p="stringData.cs" t="Include" />
+            <e p="vector3Data.cs" t="Include" />
           </e>
+          <e p="Enemy.cs" t="Include" />
+          <e p="EnumSwitches.cs" t="Include" />
+          <e p="Flip.cs" t="Include" />
+          <e p="HealthBar.cs" t="Include" />
+          <e p="IfStatements.cs" t="Include" />
           <e p="ImageBehaviour.cs" t="Include" />
-          <e p="NewBehaviourScript.cs" t="Include" />
+          <e p="listsAndLoops.cs" t="Include" />
+          <e p="monoBehaviours.cs" t="Include" />
+          <e p="MouseEvents.cs" t="Include" />
+          <e p="NewClass.cs" t="Include" />
+          <e p="newer.cs" t="Include" />
+          <e p="objectSpinner.cs" t="Include" />
+          <e p="PlayerHealth.cs" t="Include" />
+          <e p="PlayerStats.cs" t="Include" />
+          <e p="powerUp.cs" t="Include" />
+          <e p="PowerUpCherry.cs" t="Include" />
+          <e p="RigidBodyForces.cs" t="Include" />
           <e p="Shooter.cs" t="Include" />
+          <e p="textBehaviour.cs" t="Include" />
+          <e p="TriggerEvents.cs" t="Include" />
+          <e p="TriggeringEvents.cs" t="Include" />
           <e p="UpdateCoroutines.cs" t="Include" />
         </e>
       </e>

@@ -3,8 +3,9 @@ using UnityEngine.Events;
 public class TriggerEvents : MonoBehaviour
 {
     public UnityEvent triggerEnterEvent;
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter (Collider other)
     {
+        //if (other.CompareTag("Pick Up"))
         triggerEnterEvent.Invoke();
     }
 }

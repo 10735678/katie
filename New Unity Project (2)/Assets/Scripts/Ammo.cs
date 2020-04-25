@@ -1,18 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class Ammo : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float speed = 10f;
+    private Rigidbody rigidBody;
+
     void Start()
     {
-        
+        rigidBody = GetComponent<Rigidbody>();
+        rigidBody.velocity = transform.forward * speed;
+        //Destroy(gameObject, 2f);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider hitInfo)
     {
-        
+        //Destroy(gameObject);
     }
 }

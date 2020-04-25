@@ -42,30 +42,31 @@ public class CharacterMover : MonoBehaviour
         
     }
 
-    void OnTriggerEnter(Collider other)
-    {
+    //void OnTriggerEnter(Collider other)
+    //{
         
-        if (other.gameObject.CompareTag("Pick Up"))
-        {
-            other.gameObject.SetActive(false);
-            counter++;
-            speed = speed + 5;
-            print(counter);
+       // if (other.gameObject.CompareTag("Pick Up"))
+       // {
+            //other.gameObject.SetActive(false);
+           // counter++;
+            //speed = speed + 5;
+           // print(counter);
         }
         
         //Game over objects
-        if (other.gameObject.CompareTag("lower")) 
-        {
+       // if (other.gameObject.CompareTag("lower")) 
+        //{
             
             //Object.Destroy(gameObject);
             //print("Game Over");
-        }
-        if (other.gameObject.CompareTag("Boost")) 
-        {
-            positionDirection.x = Input.GetAxis("Vertical")* speedBoost;
-          
-        }
+       // }
+        //if (other.gameObject.CompareTag("Pick Up"))
+        //{
+         //positionDirection.x = Input.GetAxis("Vertical")* speedBoost;
+          //Object.Destroy(gameObject);
+                      //print("Power Up!");
+       // }
         
-    }
-}
+   // }
+//}
 
