@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class IfStatements : MonoBehaviour
 {
-    public int a = 10;
+    public int a = 11;
     public int b = 4;
     public int c = 14;
+    public int currentHealth;
     public bool canRun = true;
     void Start()
     {

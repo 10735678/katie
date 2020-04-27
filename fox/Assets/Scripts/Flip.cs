@@ -17,7 +17,7 @@ public class Flip : MonoBehaviour
         }
     }
 
-    public void FlipRotate (float value)
+    public void FlipTransform (float value)
     {
         transform.Rotate(0,value,0);
     }
